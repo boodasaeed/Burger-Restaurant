@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أفضل مطعم برجر يقدم ألذ أنواع البرجر مع خدمة مميزة.">
+  <title>مطعم البرجر الأفضل</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" type="image/png">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">🍔 مطعم البرجر الأفضل</h1>
+      <nav class="navigation">
+        <ul>
+          <li><a href="#home">الرئيسية</a></li>
+          <li><a href="#menu">المنيو</a></li>
+          <li><a href="#about">عن المطعم</a></li>
+          <li><a href="#contact">تواصل معنا</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- الصفحة الرئيسية، صورة الترحيب -->
+  <section id="home" class="hero">
+    <div class="overlay">
+      <div class="hero-content">
+        <h2>مرحبا بكم في مطعمنا!</h2>
+        <p>تجربة الطعم الأفضل مع أشهى أنواع البرجر الطازج.</p>
+        <a href="#menu" class="cta-button">تصفّح المنيو</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم المنيو -->
+  <section id="menu" class="menu-section">
+    <h2>📋 المنيو</h2>
+    <p>جرّب تشكيلة البرجر لدينا مع المكونات الطبيعية واللذيذة.</p>
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/150" alt="برجر كلاسيكي">
+        <h3>برجر كلاسيكي</h3>
+        <p>لحم مشوي على الفحم مع الجبنة والخضروات.</p>
+        <span>$5</span>
+      </div>
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/150" alt="برجر دجاج">
+        <h3>برجر دجاج</h3>
+        <p>لحم دجاج مشوي وصوص سري خاص.</p>
+        <span>$6</span>
+      </div>
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/150" alt="برجر جبنة مزدوج">
+        <h3>برجر جبنة مزدوج</h3>
+        <p>مدمج بطبقات عديدة من الجبنة الذائبة الشهية.</p>
+        <span>$7</span>
+      </div>
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/150" alt="برجر نباتي">
+        <h3>برجر نباتي</h3>
+        <p>لأصحاب الخيار الصحي: كل الطعم بدون اللحوم.</p>
+        <span>$5</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم عن المطعم -->
+  <section id="about" class="about-section">
+    <h2>🍴 عن مطعم البرجر</h2>
+    <p>
+      تأسس مطعمنا عام 2005 لتقديم أفضل أنواع البرجر بمكونات طبيعية طازجة. نسعى دائماً لإرضائكم بجودة عالية وخدمة مذهلة!
+    </p>
+    <img src="https://via.placeholder.com/800x400" alt="مطعم البرجر">
+  </section>
+
+  <!-- قسم التواصل -->
+  <section id="contact" class="contact-section">
+    <h2>📞 تواصل معنا</h2>
+    <p>نسعد بخدمتكم على مدار الساعة! لا تترددوا في التواصل معنا.</p>
+    <form>
+      <div>
+        <input type="text" placeholder="اسمك الكامل" required>
+      </div>
+      <div>
+        <input type="email" placeholder="بريدك الإلكتروني" required>
+      </div>
+      <div>
+        <textarea placeholder="رسالتك" rows="5" required></textarea>
+      </div>
+      <div>
+        <button type="submit">إرسال</button>
+      </div>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 جميع الحقوق محفوظة - مطعم البرجر الأفضل</p>
+  </footer>
+</body>
+</html>
